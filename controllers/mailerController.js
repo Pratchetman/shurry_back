@@ -10,9 +10,9 @@ class mailerController {
       let mailDestino = mails[i];
       var transporter = nodemailer.createTransport({
         service: "gmail",
-        auth: {
-          user: "websorteoweb@gmail.com",
-          pass: "nqqehobnazwkknos",
+      auth: {
+          user: "shurryshop@gmail.com",
+          pass: "dywilpapfmlssrhc",
         },
       });
 
